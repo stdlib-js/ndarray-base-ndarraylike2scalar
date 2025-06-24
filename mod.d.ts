@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,28 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var resolveGetter = require( '@stdlib/array-base-resolve-getter' );
-var getOffset = require( '@stdlib/ndarray-base-offset' );
-var getData = require( '@stdlib/ndarray-base-data-buffer' );
-
-
-// MAIN //
+import { typedndarray } from '@stdlib/types/ndarray';
 
 /**
 * Converts an ndarray-like object to a scalar value.
 *
-* @param {ndarrayLike} x - ndarray-like object
-* @param {*} x.dtype - data type
-* @param {Collection} x.data - data buffer
-* @param {NonNegativeIntegerArray} x.shape - dimensions
-* @param {IntegerArray} x.strides - stride lengths
-* @param {NonNegativeInteger} x.offset - index offset
-* @param {string} x.order - specifies whether `x` is row-major (C-style) or column-major (Fortran-style)
-* @returns {*} scalar value
+* @param x - input ndarray
+* @returns ndarray
 *
 * @example
 * var scalar2ndarray = require( '@stdlib/ndarray-from-scalar' );
@@ -48,13 +37,9 @@ var getData = require( '@stdlib/ndarray-base-data-buffer' );
 * var out = ndarraylike2scalar( x );
 * // returns 1.0
 */
-function ndarraylike2scalar( x ) {
-	var buf = getData( x );
-	var get = resolveGetter( buf );
-	return get( buf, getOffset( x ) );
-}
+declare function ndarraylike2scalar<T = unknown>( x: typedndarray<T> ): T;
 
 
 // EXPORTS //
 
-module.exports = ndarraylike2scalar;
+export = ndarraylike2scalar;
