@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-24)
+## Unreleased (2025-07-12)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`b8933b0`](https://github.com/stdlib-js/stdlib/commit/b8933b0c7fbabd051657132f49cb6eb603ad69db) - **docs:** fix return value description _(by Philipp Burckhardt)_
 -   [`7a8bc40`](https://github.com/stdlib-js/stdlib/commit/7a8bc400fc2e1dd6a5edabc750bb75f4f665c041) - **feat:** add `ndarray/base/ndarraylike2scalar` _(by Athan Reines)_
 
 </details>
@@ -34,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
