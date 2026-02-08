@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-ndarraylike2scalar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert an ndarray-like object to a scalar value.",
   "license": "Apache-2.0",
   "author": {
@@ -38,24 +38,24 @@
   },
   "dependencies": {
     "@stdlib/array-base-resolve-getter": "^0.2.2",
-    "@stdlib/ndarray-base-data-buffer": "^0.2.2",
-    "@stdlib/ndarray-base-offset": "^0.2.2",
+    "@stdlib/ndarray-base-data-buffer": "^0.2.3",
+    "@stdlib/ndarray-base-offset": "^0.2.3",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
-    "@stdlib/array-float64": "^0.2.2",
+    "@stdlib/array-float64": "^0.2.3",
     "@stdlib/array-one-to": "^0.2.2",
-    "@stdlib/assert-is-number": "^0.2.2",
+    "@stdlib/assert-is-number": "^0.2.3",
     "@stdlib/console-log-each-map": "^0.1.0",
-    "@stdlib/ndarray-base-ctor": "^0.2.2",
-    "@stdlib/ndarray-ctor": "^0.2.2",
-    "@stdlib/ndarray-from-scalar": "^0.2.1",
-    "@stdlib/utils-compose": "^0.2.2",
-    "@stdlib/utils-nary-function": "^0.2.3",
+    "@stdlib/ndarray-base-ctor": "^0.3.0",
+    "@stdlib/ndarray-ctor": "^0.3.0",
+    "@stdlib/ndarray-from-scalar": "^0.3.0",
+    "@stdlib/utils-compose": "^0.2.3",
+    "@stdlib/utils-nary-function": "^0.2.4",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
