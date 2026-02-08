@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ndarraylike2scalar from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2scalar@esm/index.mjs';
+import ndarraylike2scalar from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2scalar@v0.1.1-esm/index.mjs';
 ```
 
 #### ndarraylike2scalar( x )
@@ -100,7 +100,7 @@ import compose from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@esm/ind
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
 import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import ndarraylike2scalar from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2scalar@esm/index.mjs';
+import ndarraylike2scalar from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2scalar@v0.1.1-esm/index.mjs';
 
 // Create a list of scalars:
 var scalars = oneTo( 10 );
