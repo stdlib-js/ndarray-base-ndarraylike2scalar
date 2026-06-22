@@ -45,32 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-base-ndarraylike2scalar
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ndarraylike2scalar = require( '@stdlib/ndarray-base-ndarraylike2scalar' );
+import ndarraylike2scalar from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2scalar@deno/mod.js';
 ```
 
 #### ndarraylike2scalar( x )
@@ -78,7 +60,7 @@ var ndarraylike2scalar = require( '@stdlib/ndarray-base-ndarraylike2scalar' );
 Converts an ndarray-like object to a scalar value.
 
 ```javascript
-var scalar2ndarray = require( '@stdlib/ndarray-from-scalar' );
+import scalar2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@deno/mod.js';
 
 var arr = scalar2ndarray( 1.0 );
 // returns <ndarray>
@@ -108,12 +90,12 @@ var out = ndarraylike2scalar( arr );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var scalar2ndarray = require( '@stdlib/ndarray-from-scalar' );
-var compose = require( '@stdlib/utils-compose' );
-var naryFunction = require( '@stdlib/utils-nary-function' );
-var oneTo = require( '@stdlib/array-one-to' );
-var logEachMap = require( '@stdlib/console-log-each-map' );
-var ndarraylike2scalar = require( '@stdlib/ndarray-base-ndarraylike2scalar' );
+import scalar2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@deno/mod.js';
+import compose from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@deno/mod.js';
+import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
+import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to@deno/mod.js';
+import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
+import ndarraylike2scalar from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2scalar@deno/mod.js';
 
 // Create a list of scalars:
 var scalars = oneTo( 10 );
@@ -154,7 +136,7 @@ logEachMap( '%d => %d', scalars, f );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
