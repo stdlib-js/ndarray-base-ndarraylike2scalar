@@ -46,7 +46,7 @@
     "@stdlib/array-float64": "^0.2.3",
     "@stdlib/array-one-to": "^0.2.3",
     "@stdlib/assert-is-number": "^0.2.3",
-    "@stdlib/console-log-each-map": "^0.1.1",
+    "@stdlib/console-log-each-map": "^0.1.2",
     "@stdlib/ndarray-base-ctor": "^0.3.1",
     "@stdlib/ndarray-ctor": "^0.3.1",
     "@stdlib/ndarray-from-scalar": "^0.3.1",
